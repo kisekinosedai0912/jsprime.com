@@ -1,12 +1,21 @@
 function toggleMenu() {
-    var menu = document.getElementById("mobile-menu");
-    if (menu.style.display === "block") {
-        menu.style.display = "none";
+    let menu = document.getElementById("navbarNav");
+    if (menu.classList.contains("show")) {
+        menu.classList.remove("show");
     } else {
-        menu.style.display = "block";
+        menu.classList.add("show");
     }
 }
+
+let navLinks = document.querySelectorAll("#navbarNav .nav-link");
+
+navLinks.forEach(function(navLink) {
+    navLink.addEventListener("click", function() {
+        toggleMenu();
+    });
+});
+
 function load(){
-    var menu = document.getElementById("mobile-menu");
+    let menu = document.getElementById("mobile-menu");
     menu.style.display = "none";
 }
