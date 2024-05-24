@@ -201,6 +201,9 @@ footer .footer-container{
     margin-left: 1rem;
     margin-right: 1rem;
 }
+.copyright-container{
+    align-items: end;
+}
 .mobile-menu{
     display: none;
 }
@@ -447,20 +450,22 @@ footer .footer-container{
 
     .equipment-box {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         margin: 0 auto;
+        margin-top: 0;
+        margin-bottom: 0;
     }
     .boxes{
         display: flex;
         justify-content: center;
-        margin: 0 auto;
+        width: 50%;
+        margin: 0;
     }
     .boxes img {
-        width: 10rem;
-        height: 13rem;
-        margin: auto;
+        width: 100%;
+        height: 10rem;
     }
 
     .service-caption h2{
@@ -493,6 +498,9 @@ footer .footer-container{
         font-size: 1rem;
         font-weight: bold;
         display: none;
+    }
+    .pagelanding-container img{
+        height: auto;
     }
     .service-container{
         display: block;
@@ -575,6 +583,30 @@ footer .footer-container{
         margin: 0 auto;
         text-align: center;
     }
+    .find {
+        width: 100%;
+        height: 15rem;
+    }
+    .hours{
+        padding-top: auto;
+        width: 100%;
+        height: 8rem;
+    }
+    .hours p{
+        margin-left: 2rem;
+    }
+    .social-privacy{
+        width: 100%;
+    }
+    .ps{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 7rem;
+        margin: 0 auto;
+        padding-left:   auto;
+    }
     .footer-container h4 {
         font-size: .8rem;
     }
@@ -586,8 +618,10 @@ footer .footer-container{
         text-align: justify;
     }
     .copyright-container {
-        margin-top: 3rem;
+        width: 100%;
+        display: flex;
         align-items: center;
-        height: 11.4rem;
+        justify-content: center;
+        height: 7rem;
     }
 }
