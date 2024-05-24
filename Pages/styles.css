@@ -477,7 +477,7 @@ footer .footer-container{
     }
     .para-contain{
         font-size: .7rem;
-        margin: auto;
+        margin:0 auto;
     }
     .description{
         font-size: .7rem;
