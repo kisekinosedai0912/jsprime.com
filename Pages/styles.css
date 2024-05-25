@@ -479,7 +479,6 @@ footer .footer-container{
         margin: 0 auto;
         margin-top: 0;
         margin-bottom: 0;
-        border: 1px solid orange;
         height: 21rem;
     }
     .boxes{
@@ -487,7 +486,6 @@ footer .footer-container{
         justify-content: center;
         width: 50%;
         margin: 0;
-        border: 1px solid orange;
     }
     .boxes img {
         width: 100%;
