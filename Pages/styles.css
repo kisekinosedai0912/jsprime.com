@@ -479,16 +479,20 @@ footer .footer-container{
         margin: 0 auto;
         margin-top: 0;
         margin-bottom: 0;
+        border: 1px solid orange;
+        height: 21rem;
     }
     .boxes{
         display: flex;
         justify-content: center;
         width: 50%;
         margin: 0;
+        border: 1px solid orange;
     }
     .boxes img {
         width: 100%;
         height: 10rem;
+        gap: .5rem;
     }
 
     .service-caption h2{
