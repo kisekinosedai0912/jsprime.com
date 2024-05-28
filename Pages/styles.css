@@ -84,13 +84,15 @@ body {
 /* modified navbar style */
 
 .navbar {
-    background-color: rgb(132, 104, 75); 
+    background-color: rgba(150, 112, 72, 0.7); 
     position: fixed;
     width: 100vw;
     z-index: 1;
 }
 .navbar-nav .nav-link {
     color: #ffffff; 
+    font-family:  'Montserrat', 'Verdana', sans-serif;
+    font-size: large;
 }
 .navbar-nav .nav-link:hover {
     color: #ce834d;
